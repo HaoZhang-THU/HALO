@@ -8,7 +8,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>HALyPO: Heterogeneous-Agent Lyapunov Policy Optimization for Human-Robot Collaboration</title>
+  <title>HALO: Learning Human-Robot Collaboration via Heterogeneous-Agent Lyapunov Policy Optimization</title>
 
 
 
@@ -118,7 +118,7 @@
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop has-text-centered">
-      <h1 class="title is-1 publication-title">HALyPO: Heterogeneous-Agent Lyapunov Policy Optimization for Human-Robot Collaboration</h1>
+      <h1 class="title is-1 publication-title">HALO: Learning Human-Robot Collaboration via Heterogeneous-Agent Lyapunov Policy Optimization</h1>
       <div class="is-size-5 publication-authors">
         <span class="author-block">Hao Zhang<sup>1,2</sup>, Yaru Niu<sup>2</sup>, Yikai Wang<sup>2</sup>, Ding Zhao<sup>2</sup>, H. Eric Tseng<sup>1</sup></span>
       </div>
@@ -169,7 +169,7 @@
 
       <p class="has-text-centered mt-3 is-size-6 has-text-grey">
 
-        Overall demonstration of HALyPO in human-robot collaboration tasks.
+        Overall demonstration of HALO in human-robot collaboration tasks.
 
 </section>
 
@@ -189,7 +189,7 @@
 
           <p>
 
-            To improve generalization and resilience in human–robot collaboration (HRC), robots must handle the combinatorial diversity of human behaviors and contexts, motivating multi-agent reinforcement learning (MARL). However, inherent heterogeneity between robots and humans creates a rationality gap (RG) in the learning process--a variational mismatch between decentralized best-response dynamics and centralized cooperative ascent. The resulting learning problem is a general-sum differentiable game, so independent policy-gradient updates can oscillate or diverge without added structure. We propose heterogeneous-agent Lyapunov policy optimization (HALyPO), which establishes formal stability directly in the policy-parameter space by enforcing a per-step Lyapunov decrease condition on a parameter-space disagreement metric. Unlike Lyapunov-based safe RL, which targets state/trajectory constraints in constrained Markov decision processes, HALyPO uses Lyapunov certification to stabilize decentralized policy learning. HALyPO rectifies decentralized gradients via optimal quadratic projections, ensuring monotonic contraction of RG and enabling effective exploration of open-ended interaction spaces. Extensive simulations and real-world humanoid-robot experiments show that this certified stability improves generalization and robustness in collaborative corner cases.
+            To improve generalization and resilience in human–robot collaboration (HRC), robots must handle the combinatorial diversity of human behaviors and contexts, motivating multi-agent reinforcement learning (MARL). However, inherent heterogeneity between robots and humans creates a rationality gap (RG) in the learning process--a variational mismatch between decentralized best-response dynamics and centralized cooperative ascent. The resulting learning problem is a general-sum differentiable game, so independent policy-gradient updates can oscillate or diverge without added structure. We propose heterogeneous-agent Lyapunov policy optimization (HALO), which establishes formal stability directly in the policy-parameter space by enforcing a per-step Lyapunov decrease condition on a parameter-space disagreement metric. Unlike Lyapunov-based safe RL, which targets state/trajectory constraints in constrained Markov decision processes, HALO uses Lyapunov certification to stabilize decentralized policy learning. HALO rectifies decentralized gradients via optimal quadratic projections, ensuring monotonic contraction of RG and enabling effective exploration of open-ended interaction spaces. Extensive simulations and real-world humanoid-robot experiments show that this certified stability improves generalization and robustness in collaborative corner cases.
             
           </p>
 
@@ -209,7 +209,7 @@
 
       <div class="figure-description">
 
-        <strong>Figure 1: Sim-to-Real Deployment Across Embodied Tasks</strong>: macro-view of deployment on OSP (top), SCT (Middle) and SLH (Bottom). Temporal progression is indicated by color gradients; arrows trace the stable trajectories maintained by HALyPO despite complex physical coupling and human-induced perturbations.
+        <strong>Figure 1: Sim-to-Real Deployment Across Embodied Tasks</strong>: macro-view of deployment on OSP (top), SCT (Middle) and SLH (Bottom). Temporal progression is indicated by color gradients; arrows trace the stable trajectories maintained by HALO despite complex physical coupling and human-induced perturbations.
 
 </section>
 
@@ -287,17 +287,17 @@
 
   <div class="container is-max-desktop">
 
-    <h2 class="title is-3 section-title has-text-centered">HALyPO Methodology & Framework</h2>
+    <h2 class="title is-3 section-title has-text-centered">HALO Methodology & Framework</h2>
 
     
 
     <div class="figure-block">
 
-      <img src="static/images/framework.jpg" alt="HALyPO Framework">
+      <img src="static/images/framework.jpg" alt="HALO Framework">
 
       <div class="figure-description">
 
-        <strong>Figure 2: Overview of the HALyPO Methodology and Framework.</strong> This architecture combining the transition from standard decentralized learning to Lyapunov policy optimization for real-world HRC. Key components include the computation of the rationality gap and the stability normal vector to derive the final analytic closed-form projection.
+        <strong>Figure 2: Overview of the HALO Methodology and Framework.</strong> This architecture combining the transition from standard decentralized learning to Lyapunov policy optimization for real-world HRC. Key components include the computation of the rationality gap and the stability normal vector to derive the final analytic closed-form projection.
 </section>
 
 
@@ -465,7 +465,7 @@
 
   <div class="content has-text-centered">
 
-    <p>Academic Project Page Template for HALyPO Research.</p>
+    <p>Academic Project Page Template for HALO Research.</p>
 
   </div>
 
