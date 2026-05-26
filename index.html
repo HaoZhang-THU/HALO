@@ -117,6 +117,25 @@
   /* 链接按钮样式 */
     .publication-links { margin-top: 1rem; margin-bottom: 1rem; }
     .external-link { border-radius: 20px; margin: 0 5px; }
+
+  /* 让作者名字和机构的超链接默认显示为黑色，移除下划线 */
+  .publication-authors a, 
+  .is-size-6.mt-2 a {
+    color: #363636 !important; /* 强制使用 Bulma 的深灰/黑色 */
+    text-decoration: none;     /* 去掉默认的下划线 */
+  }
+
+  /* 鼠标悬停在名字或机构上时，变成温柔的蓝色并显示下划线，提升交互感 */
+  .publication-authors a:hover, 
+  .is-size-6.mt-2 a:hover {
+    color: #3273dc !important; /* 悬停时变蓝 */
+    text-decoration: underline;
+  }
+
+  /* 确保 * Corresponding authors 文本也是黑色 */
+  .is-size-6.mt-2 {
+    color: #363636 !important;
+  }
   
 </style>
 
